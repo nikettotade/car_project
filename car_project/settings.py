@@ -38,6 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'car_service.apps.CarServiceConfig',
+    'cars.apps.CarsConfig',
+    'ckeditor',
+
 ]
 
 MIDDLEWARE = [
